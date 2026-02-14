@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Top Scholars Home Tuition</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>About - Bit Global Technologies</title>
+    <meta name="description" content="About Bit Global Technologies - trusted supplier of paints, electronics and plumbing tools.">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="header-container">
-            <a href="index.html" class="logo" aria-label="Top Scholars Home Tuition">
-                <div class="logo-img">🎓</div>
-                <span>Top Scholars</span>
-            </a>
-            <nav id="nav-menu" aria-label="Main Navigation">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="vision.html">Vision</a>
-                <a href="mission.html">Mission</a>
-                <a href="charges.html">Charges</a>
-                <a href="contact.html">Contact</a>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1><a href="index.html" style="color:inherit; text-decoration:none;">Bit Global Technologies</a></h1>
+            </div>
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
             </nav>
-            <a class="apply-btn" href="contact.html" aria-label="Apply Now for Tuition Services">Apply Now</a>
-            <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu" aria-expanded="false">
+            <a href="tel:0762278583" class="phone-header">
+                <span class="phone-icon">📞</span> 0762278583
+            </a>
+            <button class="menu-toggle" id="menuToggle">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -33,92 +33,60 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <h1>About Top Scholars Home Tuition</h1>
-                <p>Discover our story, values, and commitment to education</p>
+        <section class="hero" style="padding:80px 20px; min-height:260px;">
+            <div class="hero-content">
+                <h2 class="hero-headline">About Bit Global Technologies</h2>
+                <p class="hero-subtext">Serving professionals and DIY customers with quality supplies and trusted advice.</p>
             </div>
         </section>
 
-        <!-- About Us Full Section -->
-        <section id="about-full">
+        <section class="products-section" style="padding:40px 20px;">
             <div class="container">
-                <div class="section-card">
-                    <h2>Who We Are</h2>
-                    <p>Top Scholars Home Tuition is a leading educational institution dedicated to transforming lives through quality tuition and personalized mentorship. Founded with a vision to bridge the gap between classroom learning and academic excellence, we have been serving students for years with unwavering commitment to their success.</p>
-                    <p>Our team comprises experienced educators, subject matter experts, and dedicated mentors who understand the unique learning needs of each student. We believe that every student has the potential to excel, and our role is to unlock that potential through innovative teaching methods and individualized attention.</p>
-                </div>
-            </div>
-        </section>
+                <h2 class="section-title">Who We Are</h2>
+                <p style="font-size:16px; color:#444; max-width:900px; margin:0 auto 20px; text-align:center;">Bit Global Technologies is a locally owned hardware supplier committed to providing durable, affordable and high-performance products. Our team sources trusted brands and rigorously checks items to ensure you get value for your money. We support contractors, tradespeople and homeowners with reliable stock and helpful customer service.</p>
 
-        <!-- Our Values Section -->
-        <section>
-            <div class="container">
-                <div class="section-card">
-                    <h2>Our Core Values</h2>
-                    <p><strong>Excellence:</strong> We strive for excellence in everything we do, from curriculum design to student mentorship. Our commitment to quality ensures that every student receives the best education.</p>
-                    <p><strong>Personalization:</strong> Every student is unique. We tailor our teaching approach to individual learning styles, pace, and goals to maximize learning outcomes.</p>
-                    <p><strong>Integrity:</strong> We maintain the highest standards of integrity in all our dealings. Transparency, honesty, and accountability are the foundations of our relationships with students and parents.</p>
-                    <p><strong>Innovation:</strong> We continuously evolve our teaching methods and curriculum to incorporate the latest educational practices and technologies, ensuring our students remain ahead of the curve.</p>
-                    <p><strong>Support:</strong> Beyond academics, we provide comprehensive support including progress tracking, regular feedback, and guidance to help students achieve their full potential.</p>
-                </div>
-            </div>
-        </section>
+                <h3 style="text-align:center; color:var(--primary-dark); margin-top:30px;">Our Mission</h3>
+                <p style="text-align:center; max-width:800px; margin:10px auto 30px; color:#555;">To supply high-quality hardware products that make building, fixing and renovating easier — backed by service that customers can rely on.</p>
 
-        <!-- Why Choose Us Section -->
-        <section>
-            <div class="container">
-                <div class="section-card">
-                    <h2>Why Choose Top Scholars?</h2>
-                    <p>✓ <strong>Expert Tutors:</strong> Our tutors are highly qualified and experienced in their respective subjects.</p>
-                    <p>✓ <strong>Personalized Learning:</strong> One-on-one sessions tailored to your specific needs and learning pace.</p>
-                    <p>✓ <strong>Flexible Scheduling:</strong> Classes scheduled at your convenience to fit your lifestyle.</p>
-                    <p>✓ <strong>Comprehensive Materials:</strong> High-quality study materials and resources to support your learning.</p>
-                    <p>✓ <strong>Progress Tracking:</strong> Regular assessments and detailed progress reports to keep you informed.</p>
-                    <p>✓ <strong>Affordable Rates:</strong> Premium quality education at competitive rates with flexible payment options.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Subjects Offered Section -->
-        <section>
-            <div class="container">
-                <div class="section-card">
-                    <h2>Subjects We Offer</h2>
-                    <div class="subjects-grid">
-                        <div class="subject-card">
-                            <img src="mathematics.jpeg" alt="Mathematics" class="subject-img">
-                            <h3>📐 Mathematics</h3>
-                            <p>Master algebra, geometry, calculus, and advanced problem-solving techniques with our expert mathematics tutors.</p>
-                        </div>
-                        <div class="subject-card">
-                            <img src="biology.jpeg" alt="Biology" class="subject-img">
-                            <h3>🧬 Biology</h3>
-                            <p>Explore life sciences, cell biology, genetics, and ecology with comprehensive learning support and practical demonstrations.</p>
-                        </div>
-                        <div class="subject-card">
-                            <img src="chem.jpeg" alt="Chemistry" class="subject-img">
-                            <h3>⚗️ Chemistry</h3>
-                            <p>Understand chemical reactions, atomic structure, and molecular concepts through interactive and engaging lessons.</p>
-                        </div>
-                        <div class="subject-card">
-                            <img src="phyc.jpeg" alt="Physics" class="subject-img">
-                            <h3>⚡ Physics</h3>
-                            <p>Study motion, energy, waves, and forces with practical experiments and real-world applications of physical principles.</p>
-                        </div>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:20px; margin-top:30px;">
+                    <div style="background:#fff; padding:18px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.06);">
+                        <h4 style="color:var(--primary-dark); margin-bottom:8px;">Paints</h4>
+                        <p style="color:#666;">Quality exterior and interior paints for long-lasting finishes.</p>
+                    </div>
+                    <div style="background:#fff; padding:18px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.06);">
+                        <h4 style="color:var(--primary-dark); margin-bottom:8px;">Electronics</h4>
+                        <p style="color:#666;">Power tools, lighting and electrical supplies for professionals.</p>
+                    </div>
+                    <div style="background:#fff; padding:18px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.06);">
+                        <h4 style="color:var(--primary-dark); margin-bottom:8px;">Plumbing</h4>
+                        <p style="color:#666;">Pipes, fittings and tools built to last under pressure.</p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Top Scholars Home Tuition. All rights reserved.</p>
-        <p>Committed to excellence in education</p>
+    <!-- Contact & Footer reused -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Bit Global Technologies. All rights reserved.</p>
+                <div class="footer-contact">
+                    <a href="tel:0762278583">📞 0762278583</a>
+                    <a href="https://wa.me/254762278583" target="_blank">💬 WhatsApp</a>
+                    <a href="mailto:denismuthamia41@gmail.com">📧 Email</a>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <a href="https://wa.me/254762278583?text=Hello%2C%20I%20want%20to%20order%20a%20product%20from%20Bit%20Global%20Technologies." 
+       target="_blank" 
+       class="whatsapp-float" 
+       title="Chat with us on WhatsApp">
+        <span>💬</span>
+    </a>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
